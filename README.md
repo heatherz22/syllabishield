@@ -1,4 +1,20 @@
-# syllabishield
-SyllabiShield — From syllabus to skillset.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-SyllabiShield is an AI-powered platform that converts a cybersecurity student’s syllabus into an interactive, roadmap-style learning experience. Students upload their syllabus and instantly receive a structured visual path of course topics. For each topic, they can choose to learn the concept, test their understanding through adaptive quizzes, or build personalized, resume-ready projects aligned with real-world cybersecurity roles. By bridging academic coursework with hands-on skill development, SyllabiShield transforms static syllabi into actionable career roadmaps.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/665ddf51-2673-466b-b761-cfdbfb460569
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
